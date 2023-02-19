@@ -4,16 +4,18 @@ channels:
   - defaults
 dependencies:
   - python=3.9
-  - gmt=6.1.1
-  - pygmt=0.3.0
+  - gmt=6.4.0
+  - pygmt=0.8.0
   - jupyterlab=3.0.7
   - jupyter-offlinenotebook=0.2.1
-  - pandas=1.2.2
+  - pandas=1.5.2
   - openpyxl
-  - pyMelt
-  - Thermobar
-  - matplotlib
-  - numpy
-  - scipy
+  - matplotlib=3.6.3
+  - numpy=1.24.1
+  - scipy=1.10.0
+  - pip
+  - pip:
+    - pyMelt
+    - Thermobar
   
   
