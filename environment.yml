@@ -10,10 +10,11 @@ dependencies:
   - jupyter-offlinenotebook=0.2.1
   - pandas=1.2.2
   - openpyxl
-  - pyMelt
-  - Thermobar
   - matplotlib
   - numpy
   - scipy
+  - pip:
+    - pyMelt
+    - Thermobar
   
   
